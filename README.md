@@ -1,7 +1,7 @@
 # pover
 Python OVERloading (pover) methods with type hints
 
-It is equipped with fast method look up, minimal runtime hit, overloading method at class construction time.
+It is equipped with fast overloading methods look up, minimal runtime footprint, overloading methods at class construction time.
 
 ## Install
 ```
@@ -49,3 +49,14 @@ class OverloadTest(unittest.TestCase):
 ```
 python3 -m unittest pover.tests.tests
 ```
+
+
+## Supports
+It requires python >=3.5.
+
+It supports all native python types like `int`, `set`, `list`, `dict` etc. as well as your custom classes `class MyClass`.
+
+It does not support `typing` module like `typing.List`, `typing.Tuple`, but you can use the native `list`, `tuple` instead.
+
+## Future
+Support keyword arguments.
