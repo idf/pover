@@ -1,5 +1,7 @@
 # pover
-Python Overloading Methods
+Python OVERloading (pover) methods with type hints
+
+It is equipped with fast method look up, minimal runtime hit, overloading method at class construction time.
 
 ## Install
 ```

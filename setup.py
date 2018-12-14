@@ -12,5 +12,4 @@ setup(
     packages     = [
         'pover',
     ],
-    install_requires = []
 )
