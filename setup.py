@@ -1,3 +1,4 @@
+import setuptools
 from distutils.core import setup
 
 
@@ -9,7 +10,5 @@ setup(
     license      = 'GNU GENERAL PUBLIC LICENSE',
     description  = 'Python Overloading Methods',
     url          = 'https://github.com/idf/pover',
-    packages     = [
-        'pover',
-    ],
+    packages     = setuptools.find_packages(),
 )
