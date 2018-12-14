@@ -7,9 +7,11 @@ pip3 install pover
 ```
 
 ## Example
-Declare your class with metaclass `pover.OverloadMeta`
+All you need is `pover.OverloadMeta`. Simply declare your class with metaclass `pover.OverloadMeta`
 
-```
+```py
+#!/usr/bin/env python3
+import unittest
 import pover
 
 
